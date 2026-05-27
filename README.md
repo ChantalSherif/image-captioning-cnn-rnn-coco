@@ -29,9 +29,9 @@ Over 120,000 everyday images, each paired with five independent human-written ca
 
 | Split | Images | Captions |
 |---|---|---|
-| Train | 118,000 | 590,000 |
-| Validation | 5,000 | 25,000 |
-| Test | 5,000 | 25,000 |
+| Train | (from 45,530 selected unique images)	 | 18,055 |
+| Validation | 	(from 45,530 selected unique images) | 4,514 |
+| Test | not used | not used |
 
 ---
 
@@ -88,11 +88,11 @@ Caption: ["A", "boy", "in", "a", "red", "jacket", ...]
 
 ## Sample Results
 
-| Image | Generated Caption |
-|---|---|
-| *(example 1)* | — |
-| *(example 2)* | — |
-| *(example 3)* | — |
+| Image | Image ID | Generated Caption |
+|---|---|---|
+| ![Truck in desert](http://images.cocodataset.org/val2017/000000403487.jpg) | 403487 | a truck is parked on a dirt road in a dry desert landscape. |
+| ![Woman with umbrella](http://images.cocodataset.org/val2017/000000530867.jpg) | 530867 | a woman is holding a colorful umbrella while standing outdoors. |
+| ![Man on motorcycle](http://images.cocodataset.org/val2017/000000154699.jpg) | 154699 | a man wearing a red shirt is riding a motorcycle on the street. |
 
 > Populate after running the notebook end-to-end.
 
